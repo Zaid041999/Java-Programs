@@ -1,3 +1,6 @@
+//An Armstrong number is a number that is equal to the sum of its digits, each raised to a power
+//1^4 + 6^4 + 3^4 + 4^4 = 1634.
+
 package program.basic.loops.methodreturntype;
 
 import java.util.Scanner;

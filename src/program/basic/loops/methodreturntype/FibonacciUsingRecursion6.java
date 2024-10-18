@@ -3,7 +3,7 @@ package program.basic.loops.methodreturntype;
 import java.util.Scanner;
 
 public class FibonacciUsingRecursion6 {
-    static int a=0,b=1,c;
+      static int a=0,b=1,c;
 //    public static void main(String[] args) {
 //        Scanner sc =new Scanner(System.in);
 //        int num = sc.nextInt();
@@ -41,6 +41,16 @@ public class FibonacciUsingRecursion6 {
             fibonacciRecursion(--num);
 
         }
-    }
+//            public static int fibonacci(int n)
+//            {
+//                if (n <= 1)
+//                    return n;
+//                return fibonacci(n - 1) + fibonacci(n - 2);
+//            }
+//                public static void main(String[] args) {
+//                    int n = 11;
+//                    System.out.println(fibonacci(n));
+//                }
+//                }
 
-}
+}}
