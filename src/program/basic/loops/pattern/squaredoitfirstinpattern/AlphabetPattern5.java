@@ -2,7 +2,7 @@
 //A     A
 //A     A
 //A A A A
-package program.basic.loops.pattern.square1;
+package program.basic.loops.pattern.squaredoitfirstinpattern;
 
 
     public  class AlphabetPattern5 {

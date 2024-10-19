@@ -2,7 +2,7 @@
 //* * * *
 //* * * *
 //* * * *
-package program.basic.loops.pattern.square1;
+package program.basic.loops.pattern.squaredoitfirstinpattern;
 
 public class StarPattern1 {
     public static void main(String[] args) {

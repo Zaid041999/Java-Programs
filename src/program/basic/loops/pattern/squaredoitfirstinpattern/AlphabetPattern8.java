@@ -3,7 +3,7 @@
 //C     C
 //D D D D
 
-package program.basic.loops.pattern.square1;
+package program.basic.loops.pattern.squaredoitfirstinpattern;
 
 
     public  class AlphabetPattern8 {
