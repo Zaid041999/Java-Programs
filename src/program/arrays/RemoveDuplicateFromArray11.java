@@ -12,6 +12,7 @@ public class RemoveDuplicateFromArray11 {
             }
 
         }
+        //if arr.length-1 is not used then it will show the out of bound exception
         arr[index]=arr[arr.length-1];
         for(int value:arr){
             System.out.print(value+"\t");
