@@ -1,6 +1,6 @@
 package program.arrays;
 
-public class RemoveDuplicateFromSortedArray11 {
+public class RemoveDuplicateFromSortedArray13 {
     public static void main(String[] args) {
 //        int []arr={1,1,2,2,2,3,3};
 //        int index =0;

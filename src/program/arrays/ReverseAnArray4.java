@@ -26,7 +26,7 @@ public class ReverseAnArray4 {
 //        }
 //
 //    }
-    //alternate
+    //altern ate
       public static int[] reverseArray(int[] array)
     {
         int[] temp=new int[array.length];
