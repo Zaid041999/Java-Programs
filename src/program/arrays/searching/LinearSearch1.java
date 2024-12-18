@@ -1,7 +1,9 @@
 package program.arrays.searching;
 
 import java.util.Scanner;
-
+//Time Complexity
+//BestCase->O(1)
+//WorstCase->O(n)
 public class LinearSearch1 {
 
     public static int linearSearch(int []array,int target){
