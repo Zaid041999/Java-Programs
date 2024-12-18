@@ -1,12 +1,13 @@
-package program.arrays.searching;
+package program.arrays.searchingandsorting;
 
 import java.util.Scanner;
 //Time Complexity
 //BestCase->O(1)
 //WorstCase->O(n)
-public class LinearSearch1 {
+public class LinearSearch2 {
 
-    public static int linearSearch(int []array,int target){
+    public static int linearSearch(char []array,char target){
+
         int index=-1;
         for (int i = 0; i < array.length; i++) {
             if(array[i]==target){
@@ -22,13 +23,15 @@ public class LinearSearch1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the the size of the Array :");
         int size = sc.nextInt();
-        int []arr =new int[size];
+        char []arr =new char[size];
+
         System.out.println("Enter the element in the array one by one :");
-        for (int i = 0; i <arr.length ; i++) {
-                 arr[i] = sc.nextInt();
+        for (int i = 0; i <size ; i++) {
+                 System.out.print("Character " + (i + 1) + ": ");
+                 arr[i] = sc.next().charAt(0);
         }
         System.out.println("Enter the target element :");
-        int target = sc.nextInt();
+        char target = sc.next().charAt(0);
 
         //call the linearSearch()
         int index = linearSearch(arr,target);
