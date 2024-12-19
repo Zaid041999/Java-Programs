@@ -2,7 +2,7 @@ package program.arrays.searchingandsorting;
 
 import java.util.Scanner;
 //Time Complexity =>O(n)
-public class BubbleSort {
+public class BubbleSort3 {
     public static void bubbleSort(int []array){
         for(int round=0;round< array.length-1;round++){
             int swap=0;
