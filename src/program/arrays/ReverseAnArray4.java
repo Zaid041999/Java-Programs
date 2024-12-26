@@ -17,6 +17,7 @@ public class ReverseAnArray4 {
             System.out.print(value+" \t ");
         }
     }
+    //optimize
 //    public static void reverseArray(int[] array)
 //    {
 //        for (int i= 0;i<array.length/2;i++){
@@ -24,6 +25,15 @@ public class ReverseAnArray4 {
 //            array[i]=array[array.length-i-1];
 //            array[array.length-i-1]=temp;
 //        }
+    //or
+    // int first=0;
+    //int last =array.length-1;
+    //while(first<last){
+    //           int temp = array[last];
+    //           array[last]=array[first];
+    ////         array[first]=temp;
+    //           first++;
+    //           last--;
 //
 //    }
     //alternate
