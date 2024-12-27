@@ -6,7 +6,7 @@ public class PrintSubArray15 {
             int start=i;
             for (int j = i; j < array.length ; j++) {
                 int end =j;
-                for (int k = start; k <end ; k++) {
+                for (int k = start; k <=end ; k++) {
                     System.out.print(array[k]+" ");
 
                 }
