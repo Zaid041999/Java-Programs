@@ -11,10 +11,12 @@ public class NumberPattern6 {
         for(int row = 1; row < num; row++) {
             for (int col = 1; col < num; col++){
                 if ((row == 1 || col == 1) || (row == num - 1 || col == num - 1)) {
-                    System.out.print(k+++" ");
+                    System.out.print(k+"  ");
+                    k++;
                 }else {
                     System.out.print("  ");
                 }
+
             }
             System.out.println();
         }

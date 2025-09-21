@@ -16,7 +16,8 @@ public class RightTrianglePattern2 {
     public static void numberPattern(int n) {
         for(int row=1;row<=n;row++){
             for(int col =1;col<=row;col++){
-                System.out.print(k++ +" ");
+                System.out.print(k +" ");
+                k++;
             }
             System.out.println();
         }

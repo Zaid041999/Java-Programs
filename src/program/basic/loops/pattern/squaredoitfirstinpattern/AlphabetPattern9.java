@@ -11,7 +11,8 @@ public class AlphabetPattern9 {
         char ch ='A';
         for(int row =1;row<=n;row++){
             for(int col =1;col<=n;col++){
-                if(row==col){
+                if(row==col || row+col==n+1){
+//                    if(row==col || row+col==n+1){
                     System.out.print(ch+" ");
                 }else{
                     System.out.print("  ");

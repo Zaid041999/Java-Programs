@@ -64,7 +64,7 @@ public class StrongNumber9 {
             sum =sum+factorial(lastDigit);
             temp=temp/10;
         }
-        //temp=num;
+
         if(num==sum){
             return true;
         }

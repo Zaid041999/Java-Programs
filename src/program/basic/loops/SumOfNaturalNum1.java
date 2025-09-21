@@ -3,19 +3,20 @@ package program.basic.loops;
 public class SumOfNaturalNum1 {
     public static void main(String[] args) {
 //       with loop and add it will repeat till num
+        //1
 //        int sum =0;
 //        for (int i = 1;i<=100;i++){
 //            sum+=i;
 //        }
 //        System.out.println(sum);
-
+//2
 //          int i = 1,sum=0;
 //        while(i<=5){
 //            sum+=i;
 //            i++;
 //        }
 //        System.out.println(sum);
-
+//3
 //        do{
 //            sum+=i;
 //            i++;

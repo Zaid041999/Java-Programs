@@ -10,7 +10,7 @@ public class GreatestAmongThreeNum4 {
         int c= sc.nextInt();
         if (a >= b && a >= c) {
             System.out.println("a:" +a);
-        }else if(b>=c && b>=a){
+        }else if(b>=c){
             System.out.println("b:" + b);
         }else {
             System.out.println("c:"+c);
