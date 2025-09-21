@@ -37,7 +37,7 @@ public class LeftTrianglePattern1 {
 //*****
 
 
-//   1
+//    1
 //   12
 //  123
 // 1234
