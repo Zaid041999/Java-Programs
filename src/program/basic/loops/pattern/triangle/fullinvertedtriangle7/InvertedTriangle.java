@@ -53,3 +53,9 @@ public class InvertedTriangle {
 //  1 2 3
 //   1 2
 //    1
+
+//A B C D E
+// A B C D
+//  A B C
+//   A B
+//    A
