@@ -83,7 +83,7 @@ public class RightInvertedPattern1 {
         char ch ='A';
         for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= n - row + 1; col++) {
-                System.out.print((char)ch );
+                System.out.print(ch+" " );
                 ch=(char)(ch+1);
             }
 
